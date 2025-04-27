@@ -1,0 +1,39 @@
+body{
+font-family:arial, sans-serif ;
+margin:0;
+padding:0;
+background-color:#F4F4F4;
+text-align:center;
+}
+header{
+	background:#333;
+	color: white;
+	padding: 10px 0;
+}
+nav ul{
+	list-style: none;
+	padding: 0;
+}
+nav ul li{
+	display: inline;
+	margin: 0 15px;
+}
+nav ul li a{
+	color: white;
+	text-decoration: none;
+}
+.hero{
+	background: url('images/sports/D11.jpg') no-repeat center center/cover;
+	height: 500px;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}	
+footer{
+	background:#222;
+	color: white;
+	padding: 15px 0;
+	margin: 20px; 
+}
