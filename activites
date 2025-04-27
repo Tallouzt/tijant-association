@@ -1,0 +1,51 @@
+<!Doctype html>
+<html lang= "fr">
+<head>
+<meta charset= "utf-8">
+<meta name= "viewport"
+content="width=device-width ,initial-scale=1.0" >
+    <title>Tijant Association-Activites</title>
+    <link rel= "stylesheet"
+    href="style.css" >
+    <script defender src="script.js"></script>
+</head>
+<body>
+	<header>
+		<h1>Nos activités sportives</h1>
+		<nav>
+			<ul>
+				      <li><a
+				 href="index.html"> Accueil</a></li>
+				       <li><a
+				 href="activites.html">activites</a></li>
+				 	   <li><a
+				 href="contact.html">contact	</a></li>	
+				 		<li><a
+				 href="about.html">Apropos </a></li>
+				         		
+			</ul>
+		</nav>
+	</header>
+
+	    <section class="activites">
+
+	    	<h2>football</h2>
+	    	<p>Rejoignez nos équipes de football pour des entrainements et compétitions passionnants. </p>
+
+            <h2>cyclisme</h2>
+	    	<p>Découvrez nos circuits et évenements dédiés aux amateurs de cyclisme. </p>
+
+            <h2>natation</h2>
+	    	<p>Nos cours de natation pour tous les niveaux vous attendent. </p>
+
+        </section>
+
+       
+   <footer>
+        <p> & copy ; 2025 Tijant Association . Tous droits réservés </p>
+
+    </footer>
+
+</body>
+
+</html>
