@@ -1,0 +1,53 @@
+<!Doctype html>
+<html lang= "fr">
+<head>
+<meta charset= "utf-8">
+<meta name= "viewport"
+content="width=device-width ,initial-scale=1.0" >
+    <title>Tijant Association-contact</title>
+    <link rel= "stylesheet"
+    href="style.css" >
+    <script defender src="script.js"></script>
+</head>
+<body>
+	<header>
+		<h1>Contactez-nous</h1>
+		<nav>
+			<ul>
+				      <li><a
+				 href="index.html"> Accueil</a></li>
+				       <li><a
+				 href="activites.html">activites</a></li>
+				 	   <li><a
+				 href="contact.html">contact	</a></li>	
+				 		<li><a
+				 href="about.html">Apropos </a></li>
+				         		
+			</ul>
+		</nav>
+	</header>
+	    <section class="contact">
+	    	<h2>Notre addresse</h2>
+	    	<p>167 rue du sport,75000 Meknes, Morocco </p>
+
+	    	<h2>Contactez-nous</h2>
+	    	<form>
+	    		<label for="name">Nom:</label>
+	    		<input type="text"  id="name"   name="name" required>
+	    		<label for="email">Email:</label>
+	    		<input type="email" id="email"  name="email" required>
+	    		<label for="message">Message:</label>
+	    		<textarea id="message" name="message" required></textarea>
+	    		<button type="submit">Envoyer</button>
+	    	</form>
+        </section>
+
+       
+   <footer>
+        <p> & copy ; 2025 Tijant Association . Tous droits réservés </p>
+
+    </footer>
+
+</body>
+
+</html>
