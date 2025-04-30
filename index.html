@@ -8,12 +8,31 @@ content="width=device-width ,initial-scale=1.0" >
     <link rel= "stylesheet"
     href="style.css" >
     <script defender src="script.js"></script>
+
+
+
+    <link href="https://fonts.googleapis.com/css2?family=poppins:wgh@400;600&display=swap"rel ="stylesheet">
+
+    <!--Animation on scroll(AOS)-->
+
+    <Link href="https://unpkg.com/aos2.3.4/dist/aos.css" rel="stylesheet">
+
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+
+
 </head>
 <body>
+	<!--<div id="loader">
+		<h1>chargement...</h1>
+	</div>-->
 	<header>
-		<h1>Tijant Association</h1>
+
+		<div class="container"></div>
+		<h1 class="logo">Tijant Association</h1>
+		
 		<nav>
-			<ul>
+			<ul class="nav-links">
 				      <li><a
 				 href="index.html"> Accueil</a></li>
 				       <li><a
@@ -24,22 +43,49 @@ content="width=device-width ,initial-scale=1.0" >
 				 href="about.html">Apropos </a></li>
 				         		
 			</ul>
+
+			<div class="burger"><div></div><div></div><div></div> </div>
 		</nav>
+    	</div> 
+
 	</header>
-	    <section class="hero">
-	    	<h2>Decouvrez nos activités sportives</h2>
-	    	<p>football,cyclisme et natation pour tous les passionnés! </p>
+	    <section class="hero"
+	    	data-aos="fade-up">
+	    	<div class="hero-content">
+	    		<h2>le sport,notre passion</h2>
+	    		<p>football,cyclisme et natation pour tous</p>
+	    		<a href="activites.html" class="btn">découvrir</a>
+	    	</div>
+	    	
         </section>
 
+
+
+        <!---ajout id in section --->
+
+        <section id="home" class="hero" data-aos="fade-up"></section>
+          <section id="activites" class="content-section" data-aos="fade-up"></section>
+            <section id="contact" class="content-section"data-aos ="fade-up"></section>
+              <section id="about" class="content-section" data-aos="fade-up"></section>
+
+
+
+
+
        
-   <footer>
-        <p> & copy ; 2025 Tijant Association . Tous droits réservés </p>
+   <footer data -aos="fade-up">
+        <p> & copy ; 2025 Tijant Association . Tous droits réservés. </p>
 
     </footer>
+
+    <!-- initialiser aos -->
+    <script> aos.init({duration:1200,//duree de l animation en ms})></script>
 
 </body>
 
 </html>
+
+
 
 
 
