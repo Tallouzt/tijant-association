@@ -23,7 +23,7 @@ nav ul li a{
 	text-decoration: none;
 }
 .hero{
-	background: url('images/sports/D11.jpg') no-repeat center center/cover;
+	background: url('images.D11.jpg') no-repeat center center/cover;
 	height: 500px;
 	color: white;
 	display: flex;
@@ -37,3 +37,115 @@ footer{
 	padding: 15px 0;
 	margin: 20px; 
 }
+.btn{
+    background :white;
+    color:#009688;
+    padding: 0.8rem 2rem;
+    border:none;
+    border-radius:25px;
+    font-weight: 600;
+    margin-top:1.5rem;
+    text-decoration:none;
+    transition:0.4s;
+    box-shadow:0 0 0px  #009688;
+    }
+    .btn:hover {
+    background:   #004d40;
+    color:white;
+    box-shadow: 0 0 20px   #00bfa5, 0 0 40px   #00bfa5;
+     }
+     .logo{
+     	animation: zoomfade 1.5s ease forwards;
+     	opacity: 0;
+     }
+
+     @keyframes zoomfade{
+     	0%{
+     		transform: scale(0.8);
+     		opacity: 0;
+     }
+
+     100% {
+     	    transform::scale(1);
+     		opacity: 1; 
+     }
+
+   }
+
+     @media screen and(max-width: :768px)
+    { 
+     .nav-links{
+     	position: absolute;
+     	right: -100%;
+     	top: 70px;
+     	flex-direction: column;
+     	background-color: #004d40;
+     	width: 100%;
+     	transition: right 0.5s ease;
+     }
+
+     .nav-links-active {
+     	right: 0;
+      }
+
+      .burger {
+      	display: block;
+      }
+       }
+
+
+       .hero{
+       	background: liner-gradient( -45deg, #00bfa5, #009688, #00695c, #004d40 ) ;
+       	background-size: 400%   400%  ;
+       	animation: gradientMove 10s ease infinite;
+       	color: white;
+       	height: 90vh;
+       	display: flex;
+       	align-items: center;
+       	justify-content: center;
+       	flex-direction: column;
+       	text-align: center;
+       }
+
+@keyframes gradientMove{
+     	0%{
+     		background-position:0%  50% :;  		
+     }
+
+        50% {
+     	    background-position: 100%%  50% ;    	
+     }
+
+
+        100%  {background-position: 0%  50%;
+
+        	} 
+       	}
+
+ #loader{
+ 	position: fixed;
+ 	top: 0;
+ 	left: 0;
+ 	width:100%; 
+ 	height: 100%;
+ 	background:#004d40;
+ 	color: white;
+ 	display: flex;
+ 	align-items: center;
+ 	justify-content: center;
+ 	font-size:2rem; 
+ 	z-index: 9999;
+ }
+
+.hidden{
+	animation: fadeout 1s forwards;
+  }
+
+	@keyframes fadeout {
+		to {
+			opacity: 0;
+			visibility: hidden;
+
+	    	} 
+  }
+
