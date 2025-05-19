@@ -7,31 +7,51 @@ content="width=device-width ,initial-scale=1.0" >
     <title>Tijant Association-contact</title>
     <link rel= "stylesheet"
     href="style.css" >
-    <script defender src="script.js"></script>
+
+ <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="=stylesheet">
+ <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>    
+    
 </head>
 <body>
+
 	<header>
-		<h1>Contactez-nous</h1>
+		<div class="container">
+		<h1 class="logo">contactez-nous</h1>
 		<nav>
 			<ul>
 				      <li><a
-				 href="index.html"> Accueil</a></li>
+				 href="index.html">Accueil</a></li>
 				       <li><a
 				 href="activites.html">activites</a></li>
 				 	   <li><a
-				 href="contact.html">contact	</a></li>	
+				 href="contact.html">contact</a></li>	
 				 		<li><a
-				 href="about.html">Apropos </a></li>
+				 href="about.html">Apropos</a></li>
 				         		
 			</ul>
 		</nav>
+		<div>
 	</header>
-	    <section class="contact">
-	    	<h2>Notre addresse</h2>
-	    	<p>167 rue du sport,PAM2 Meknes, Morocco </p>
+	    <section class="content-section" >
+	    	<h2>Notre adresse</h2>
+	    	<p>167 Hay Riad (PAM 2) Ain Taoujdate 51000, Morocco</p>
+	    	    <p>BP : 219 , Ain taoujdate</p>
+	    	         <p>Morocco</p>
 
 	    	<h2>Contactez-nous</h2>
+
+	    	<img src="images/15.jpg" alt="CAF" height="150px" width="200">
+
 	    	<form>
+	    		<input type="text"
+	    		placeholder="votre nom" required><br>
+	    		<input type="email"
+	    		placeholder="votre email" required><br>
+	    		<textarea placeholder="votre message" required></textarea><br>
+	    		<button type="submit" class="btn">Enoyer</button>
+	    	</form>
+
+	    	<!--<form>
 	    		<label for="name">Nom:</label>
 	    		<input type="text"  id="name"   name="name" required>
 	    		<label for="email">Email:</label>
@@ -39,7 +59,13 @@ content="width=device-width ,initial-scale=1.0" >
 	    		<label for="message">Message:</label>
 	    		<textarea id="message" name="message" required></textarea>
 	    		<button type="submit">Envoyer</button>
-	    	</form>
+	    	</form>-->
+
+
+
+
+
+
         </section>
 
        
@@ -47,6 +73,8 @@ content="width=device-width ,initial-scale=1.0" >
         <p> & copy ; 2025 Tijant Association . Tous droits réservés </p>
 
     </footer>
+
+    <script>Aos.init ({ duration:1200,}); </script>
 
 </body>
 
