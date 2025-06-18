@@ -34,7 +34,7 @@ nav-links a{
 	font-weight:600;
 }
 .hero{
-	background: url('images/3.jpg') no-repeat center center/cover;
+	background: url('images/100.jpg') no-repeat center center/cover;
     background: linear-gradient(-45deg,#00bfa5,#009688,#00695c,#004d40);
     background-size: 400% 400%;
     animation: graientMove 10s ease infinite;
